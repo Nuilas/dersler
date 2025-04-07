@@ -1,0 +1,25 @@
+body {
+    background-color: #000; /* Siyah arka plan */
+    color: #fff; /* Kontrast için beyaz metin rengi */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    padding: 1em;
+}
+.course-link {
+    display: block;
+    margin: 1em 0;
+    padding: 1em;
+    background-color: #444; /* Linkler için koyu gri arka plan */
+    border: 1px solid #555; /* Biraz daha açık gri kenarlık */
+    text-decoration: none;
+    color: #fff; /* Linkler için beyaz metin rengi */
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+.course-link:hover {
+    background-color: #555; /* Üzerine gelindiğinde biraz daha açık gri */
+}
